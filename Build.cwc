@@ -1,0 +1,10 @@
+-{pPrj}=src/
+-{sOut}={_sPlatform}_{_sConfig_Type}_{_sOpt}
+>
+;Build src
+-c {pPrj} -o obj/{sOut}/
+>
+;Generate executable
+-o obj/{sOut}/ -#To _out/{sOut}/App.*
+>
+-#Run
